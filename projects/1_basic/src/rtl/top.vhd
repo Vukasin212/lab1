@@ -109,6 +109,7 @@ clk_counter_i:clk_counter     PORT MAP(
                                        cnt_en_i  => cnt_en_s     ,
                                        cnt_rst_i => cnt_rst_s    ,
                                        one_sec_o => one_sec_s
+									
                                       );
 
 timer_counter_i:timer_counter PORT MAP(
